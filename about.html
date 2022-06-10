@@ -1,0 +1,228 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    text-align:right;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+    .contact {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<body>
+    <div class="navbar">
+        <img href="signin.html" src="img_avatar1.png"  style="width:45px;">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">contact</a>
+        <a href="signin.html">sign</a>
+        <a href="card.html">Card</a>    
+      </div>
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <p>Some text..</p>
+            <b>When you create a blog, you have the opportunity to dive deep into your favorite topics, highlight your expertise, and build a community of readers interested in your work. Whether you want to start a blog from scratch or make blogging part of your business strategy, publishing content online is an effective way to share your knowledge and ideas with the world.
+
+ 
+
+                That said, composing a winning entry takes practice. In this A to Z guide, you’ll learn how to write the perfect blog post - from choosing the right blog topics and picking the proper format for your articles, to selecting strategic images that generate interest and engagement. By the time you’re done reading this, you’ll have a clear idea of how to create strong blog content that effectively communicates your ideas and stands out from other articles on the web.
+                
+                
+            </b>
+          </div>
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <p>Some text..</p>
+            <big>Let’s say, for instance, that you want to write about chocolate chip cookies. There are a few different angles you might consider taking here:
+     A how-to post that instructs readers how to do something with clearly ordered steps (e.g., “How to Bake Chocolate Chip Cookies from Scratch”)
+                
+     A curated list that offers a set of recommendations for your readers (e.g., “The Top Chocolate Chip Cookie Recipes”)
+                
+    A tips and advice post that provides expert guidance and resources. (e.g., “Tips for Making Homemade Chocolate Chip Cookies Extra Gooey”)
+                
+    A definition-based blog post that helps explain the meaning of a term or topic (e.g., “What Are No-Bake Chocolate Chip Cookies”)
+                
+    A top trends article that highlights what’s currently popular (e.g. “The Best Chocolate Chip Cookie Recipes From This Year”)
+                
+    A personal or business update that lets you unveil something fresh or recently unknown (e.g.,  “My New Chocolate Chip Cookie Recipe Revealed”)
+                
+    Get brainstorming with these best blog ideas, and check out our professional guide on how to start a blog for more helpful tips. </big>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>About Me</h2>
+            <sub>Poetry.com prides itself in supporting and encouraging all writers, regardless of background, education or experience. All poets, whether just starting out or with many years of practice, are encouraged to use our monthly contests as an opportunity to gain motivation, inspiration, exposure and most importantly, build passion and enjoyment for the written word!
+              How does it work?
+              Every month, a new contest will begin. Submit an original poem or choose one of your existing poems from the site. Check out our entry criteria, then submit your entry before the deadline! The following month, we will announce the winners on our contest Summary Page. Additionally, all nominated poems will be displayed on our site and will feature a special badge, highlighting it is a contest nominee. Each winner's badge will display their position in the top three!
+              How do you decide who wins?
+              In this contest, YOU are the judges! Every nominee is eligible for one vote, each vote worth a single point. Once all the applications have been received or the submission period has been reached, you will be able to vote. You are not allowed to vote for yourself, and abstaining from voting will deduct a point from your poem. On top of that, the Poetry.com team will award five bonus points to their favorite poems. The voting period will last one week, after which the winners will be announced!
+              Yes! All our contestants are judges too!
+              Our poetry contests boast a clever twist! We thought long and hard about what we can offer the poetry community that is new, fresh and exciting. Traditional formats have a panel of judges, named or anonymous. Our vision is that poetry is like art - it can be viewed and interpreted in a myriad of ways and it all comes down to taste and opinion. We offer a Judgement Guide to outline the key aspects of a good poem and encourage you to bring your own knowledge and experience together with ours when voting for yourselves. We believe in our community and its power to create! Let the games begin!.
+            </sub>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>Footer</h2>
+      </div>
+</body>
+</html>
